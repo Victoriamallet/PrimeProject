@@ -34,6 +34,10 @@
         .my-links a:hover {
             color: white;
         }
+
+        .carousel-inner img {
+            width: 100%;
+        }
     </style>
     <title>PrimeProject</title>
 </head>
@@ -79,12 +83,46 @@
         </div>
     </nav>
 
-    <main class="container mt-5 pt-3 pb-2 bg-white flex-grow-1">
+    <main class="container mt-5 pt-4 pb-2 bg-white flex-grow-1">
 
-        <!-- Adicione um "caroucel" aqui! -->
+        <!-- Início do Carrocel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicadores / traços. Um para cada imagem atualizando o índice. -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            </div>
+
+            <!-- Imagens do carrocel clicáveis. -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="teste1.html"><img src="img/la.jpg" alt="Los Angeles" class="d-block"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="teste2.html"><img src="img/chicago.jpg" alt="Chicago" class="d-block"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="teste3.html"><img src="img/ny.jpg" alt="New York" class="d-block"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="teste4.html"><img src="img/lastars.jpg" alt="Los Angeles Stars" class="d-block"></a>
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
 
 
-        <h2>Título da Página</h2>
+        <h2 class="pt-3">Título da Página</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil numquam, perspiciatis rem enim facere
             sequi odit
             aperiam saepe nisi explicabo neque eos cum soluta beatae magnam! Eligendi in tenetur ullam.</p>
@@ -94,54 +132,6 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum earum, numquam repudiandae dignissimos
             ullam nemo sequi, nesciunt quae ratione adipisci, id voluptatibus necessitatibus omnis nobis? Similique
             voluptates sunt qui omnis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
-            libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
-        </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor reiciendis debitis qui omnis
             libero iste neque magni quasi, nostrum ullam saepe mollitia unde. Dolorum, unde. Ad voluptatem quo eaque.
         </p>
